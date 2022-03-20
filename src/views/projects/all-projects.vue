@@ -13,9 +13,7 @@
           <p>{{ cardDetail.cardSubtitle }}</p>
           <button>Read more</button>
         </div>
-
       </div>
-
     </carousel>
   </div>
 </template>

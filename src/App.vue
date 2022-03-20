@@ -1,30 +1,30 @@
 <template>
   <div id="app">
-    <Header
-        :nav-links=navLinks
-        :is-mobile-nav-out="isMobileNavOut"
-        @toggle-out-mobile-menu="toggleOutMobileNav"
-        @toggle-in-mobile-menu="toggleInMobileNav"
-    />
-    <MobileNav
-        @go-to-home="goToHome"
-        @navigate="navigate($event)"
-        :is-mobile-menu-out="isMobileNavOut"
-        :menu="navLinks"
-    />
+<!--    <Header-->
+<!--        :nav-links=navLinks-->
+<!--        :is-mobile-nav-out="isMobileNavOut"-->
+<!--        @toggle-out-mobile-menu="toggleOutMobileNav"-->
+<!--        @toggle-in-mobile-menu="toggleInMobileNav"-->
+<!--    />-->
+<!--    <MobileNav-->
+<!--        @go-to-home="goToHome"-->
+<!--        @navigate="navigate($event)"-->
+<!--        :is-mobile-menu-out="isMobileNavOut"-->
+<!--        :menu="navLinks"-->
+<!--    />-->
     <router-view/>
-    <FooterComponent />
+<!--    <FooterComponent />-->
   </div>
 </template>
 
 <style>
 </style>
 <script>
-import Header from "./components/header";
-import FooterComponent from "./components/footer-component";
-import MobileNav from "./components/mobile-nav";
+// import Header from "./components/header";
+// import FooterComponent from "./components/footer-component";
+// import MobileNav from "./components/mobile-nav";
 export default {
-  components: {MobileNav, FooterComponent, Header},
+  // components: {MobileNav, FooterComponent, Header},
   data() {
     return {
       navLinks: [

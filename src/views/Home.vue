@@ -23,6 +23,9 @@ import Newsletter from "../components/newsletter";
 export default {
   name: 'Home',
   components: {Newsletter, Clients, Thoughts, Projects, Why, IndustryWeServe, Products, Banner},
+  mounted() {
+    window.scroll(0, 0)
+  }
 }
 </script>
 

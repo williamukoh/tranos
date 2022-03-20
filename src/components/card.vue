@@ -36,8 +36,6 @@ export default {
 }
 .card::before {
   content: '';
-  /*width: 0;*/
-  /*height: 0;*/
   position: absolute;
   top: 0;
   left: 0;
@@ -50,7 +48,6 @@ export default {
   width: 100%;
   height: 100%;
   opacity: 1;
-  /*background: rgba(0, 52, 145, 0.85);*/
 }
 .card h3.card-title {
   z-index: 100;

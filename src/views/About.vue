@@ -128,7 +128,10 @@
 
 <script>
 export default {
-  name: "About"
+  name: "About",
+  mounted() {
+    window.scroll(0, 0)
+  }
 }
 </script>
 
@@ -312,6 +315,9 @@ h2.about-page-title__title {
   .our-vision,
   .our-mission {
     padding: 40px;
+  }
+  .core-values__title-inner {
+    grid-column: 1/-1;
   }
 }
 </style>
